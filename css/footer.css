@@ -1,0 +1,41 @@
+footer {
+  text-align: center;
+  display: inline-block;
+  background-color: black;
+  color: antiquewhite;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: fit-content;
+}
+
+.footer ul{
+  list-style: none;
+  text-align: center;
+  display: inline;
+  float: none;
+  padding: 0px 8px;
+}
+
+footer li {
+  display: inline-block;
+  list-style-type: none;
+  line-height: 9px;
+  padding: 0 10px;
+}
+
+
+.footer ul li a:hover {
+  padding: 12px;
+  color: rgb(160, 34, 108);
+}
+
+.footer ul li a {
+  margin: 8px;
+  padding: 10px;
+  color: #fff;
+  font-size: 1.2em;
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+}

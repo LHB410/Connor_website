@@ -19,3 +19,12 @@
 .col-full {
   width: 1044px;
 }
+
+.card {
+  margin-bottom: 2rem;
+  width: auto;
+}
+
+.col {
+  width: fit-content;
+}
