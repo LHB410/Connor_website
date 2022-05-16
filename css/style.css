@@ -2,6 +2,7 @@
 @import 'items.css';
 @import 'video.css';
 @import 'footer.css';
+@import 'bio.css';
 
 * {
   margin: 0;
@@ -17,6 +18,7 @@ body {
 h1,h2,h3,h4,h5,h6,a {
   margin: 0;
   color: whitesmoke;
+  padding-bottom: 2rem;
 }
 
 a {
@@ -25,4 +27,31 @@ a {
 
 .container{
   text-align: center;
+}
+
+.neon-text {
+  animation: flicker 1.5s infinite alternate;
+  color: #fff;
+}
+
+/* Flickering animation */
+@keyframes flicker {
+
+  0%,18%,22%,25%,53%,57%,100% {
+
+    text-shadow:
+    0 0 4px #fff,
+    0 0 11px #fff,
+    0 0 19px #fff,
+    0 0 40px #AE19EA,
+    0 0 80px #AE19EA,
+    0 0 90px #AE19EA,
+    0 0 100px #AE19EA,
+    0 0 150px #AE19EA;
+
+  }
+
+  20%,24%,55% {
+    text-shadow: none;
+  }
 }

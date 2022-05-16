@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -24,48 +25,62 @@
   </nav>
 
   <div id="one" class="default first item">
-    <h2>Bio</h2>
-    <div class="card">
-      <p>Lorem ipsulm dolor sit amet rem adipisci delectus? consectetur adipisicing elit. Ipsam cum, voluptate vero,
-        blanditiis voluptatum aut consectetur et in quam rem adipisci delectus enim quod a laudantium perferendis ad
-        possimus culpa?</p>
+    <h1 class="neon-text">Bio</h1>
+    <div class="card mb-3 border-radius">
+      <div class="row g-0">
+        <div class="col-md-7">
+          <div class="card-body">
+            <h3 class="card-title">Connor D Steck</h3>
+            <h5 class="card-title">Musician and Composer</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ducimus, consequatur assumenda sint ipsa quia cupiditate vitae molestias voluptatum ut iste soluta hic dolorum perspiciatis dicta eius laudantium? Placeat, sint.</p>
+          </div>
+        </div>
+        <div class="col-md-2 p-1">
+          <img src="images/bw_bio_pic.jpg" class="img-fluid rounded-start img-padding" alt="connor d steck playing saxaphone">
+          <img src="images/wide.jpg" class="img-fluid rounded-start" alt="connor d steck playing saxaphone">
+        </div>
+        <div class="col-md-3 p-1">
+          <img src="images/bio pic.jpg" class="img-fluid rounded-start" alt="connor d steck playing saxaphone">
+        </div>
+      </div>
     </div>
   </div>
   <div id="two" class="item">
-    <h2>Videos</h2>
+    <h1 class="neon-text">Videos</h1>
     <div class="container">
-      <div class="video-container">
+      <div class="video-container border-radius">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/PgsnqoBhLyY?start=35&autoplay=1"
           title="YouTube video player" frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
       </div>
+      <p><small>Live performance of the Connor D Steck quartet at ALT SPEAKER in Tokyo. </small></p>
     </div>
 
   </div>
   <div id="three" class="item">
-    <h2>Bands</h2>
+    <h1 class="neon-text">Bands</h1>
     <div class="container d-flex justify-content-around">
       <div class="row">
         <div class="col">
-          <div class="card">
-          <img src="..." class="card-img-top" alt="...">
+          <div class="card border-radius">
+          <img src="images/jazz.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
         </div>
         </div>
         <div class="col">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
+          <div class="card border-radius">
+            <img src="images/jazz.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
+          <div class="card border-radius">
+            <img src="images/jazz.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
@@ -75,16 +90,15 @@
     </div>
   </div>
   <div id="four" class="item">
-    <h2>Gallery</h2>
-    <p>Lorem ipsulm dolor sit amet rem adipisci delectus? consectetur adipisicing elit. Ipsam cum, voluptate vero,
-      blanditiis voluptatum aut consectetur et in quam rem adipisci delectus enim quod a laudantium perferendis ad
-      possimus culpa?</p>
+    <h1 class="neon-text">Gallery</h1>
+    <div>
+      <p>hello Gallery</p>
+    </div>
+
   </div>
   <div id="five" class="item">
-    <h2>Shop</h2>
-    <p class="pb-5">Lorem ipsulm dolor sit amet rem adipisci delectus? consectetur adipisicing elit. Ipsam cum, voluptate vero,
-      blanditiis voluptatum aut consectetur et in quam rem adipisci delectus enim quod a laudantium perferendis ad
-      possimus culpa?</p>
+    <h2 class="pb-2">Shop</h2>
+    <h4 class="pb-5">Coming Soon!</h4>
   </div>
 
 
@@ -99,7 +113,9 @@
         <li>INSTA</li>
         <li>YOUTUBE</li>
       </ul>
-      <p class="mb-3">© Connor D Steck. All rights reservered</p>
+      <p>© Connor D Steck. All rights reservered</p>
+      <p id="portfolio-link">Website made and designed by <a href="http://laurabrooks.codes/">Laura Brooks</a>
+      </p>
 
       <a id="to_Top" href="#one">
         <div class="to-Top"></div>
