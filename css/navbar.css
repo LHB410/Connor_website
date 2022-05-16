@@ -4,6 +4,7 @@ nav {
   position: fixed;
   background-color: #000000;
   border-bottom: 1px solid #f8f8f8;
+  z-index: 1;
 }
 
 .container-fluid {
