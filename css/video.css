@@ -11,6 +11,7 @@ Iframe {
   padding-top: 30px;
   height: 0;
   overflow: hidden;
+  flex-wrap: wrap;
 }
 
 .video-container iframe,

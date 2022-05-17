@@ -12,18 +12,21 @@
     <title>Document</title>
   </head>
   <body>
+    <!-- collapsable navbar -->
+
+    <!-- collapsable navbar -->
   <nav>
     <div class="container-fluid">
       <ul>
         <li><a id="sec-1" href="#one">Bio</a></li>
         <li><a id="sec-2" href="#two">Videos</a></li>
-        <li><a id="sec-3" href="#three">Bands</a></li>
-        <li><a id="sec-4" href="#four">Gallery</a></li>
+        <li><a id="sec-3" href="#three">Music</a></li>
+        <li><a id="sec-4" href="#four">Bands</a></li>
         <li><a id="sec-5" href="#five">Shop</a></li>
       </ul>
     </div>
   </nav>
-
+  <!-- BIO -->
   <div id="one" class="default first item">
     <h1 class="neon-text">Bio</h1>
     <div class="card mb-3 border-radius">
@@ -45,20 +48,48 @@
       </div>
     </div>
   </div>
+  <!-- VIDEOS -->
   <div id="two" class="item">
     <h1 class="neon-text">Videos</h1>
-    <div class="container">
-      <div class="video-container border-radius">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/PgsnqoBhLyY?start=35&autoplay=1"
-          title="YouTube video player" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
+    <div class="container d-flex justify-content-around">
+      <div class="row">
+        <div class="col-sm-10 col-md-4">
+          <div class="video-container border-radius">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/PgsnqoBhLyY?start=35&autoplay=1"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <p><small>Live performance of the Connor D Steck quartet playing <strong>'Arizona Skies'</strong> at ALT SPEAKER in Tokyo. </small></p>
+        </div>
+        <div class="col-sm-10 col-md-4">
+          <div class="video-container border-radius">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Raux2tcrmTc?start=11&autoplay=1" title="YouTube video player"
+              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <p><small>Live performance of the Connor D Steck quartet playing <strong>'Super Mario Stage 1-1'</strong> at ALT SPEAKER in Tokyo. </small></p>
+        </div>
+        <div class="col-sm-10 col-md-4">
+          <div class="video-container border-radius">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/DXFcz0VvfV4?start=10" title="YouTube video player"
+              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <p><small>Live performance of the Connor D Steck quartet playing <strong>'Hit and Run'</strong> at ALT SPEAKER in Tokyo. </small></p>
+        </div>
       </div>
-      <p><small>Live performance of the Connor D Steck quartet at ALT SPEAKER in Tokyo. </small></p>
     </div>
-
   </div>
+  <!-- MUSIC -->
   <div id="three" class="item">
+    <h1 class="neon-text">Music</h1>
+    <div>
+      <h4>Coming Soon!</h4>
+    </div>
+  </div>
+  <!-- BANDS -->
+  <div id="four" class="item">
     <h1 class="neon-text">Bands</h1>
     <div class="container d-flex justify-content-around">
       <div class="row">
@@ -89,22 +120,13 @@
       </div>
     </div>
   </div>
-  <div id="four" class="item">
-    <h1 class="neon-text">Gallery</h1>
-    <div>
-      <p>hello Gallery</p>
-    </div>
-
-  </div>
+  <!-- SHOP -->
   <div id="five" class="item">
-    <h2 class="pb-2">Shop</h2>
+    <h2 class="pb-2 neon-text">Shop</h2>
     <h4 class="pb-5">Coming Soon!</h4>
   </div>
 
-
-
-
-
+  <!-- FOOTER -->
   <div class="footer">
     <footer>
       <!-- scroll to top -->

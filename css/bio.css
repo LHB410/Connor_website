@@ -1,7 +1,13 @@
 .card-title {
   color: black;
+  padding-bottom: 0rem ;
 }
+
 
 .border-radius {
   border-radius: 4px;
+}
+
+.card {
+  box-shadow: 0 2px 20px rgba(236, 16, 236, 0.697);
 }

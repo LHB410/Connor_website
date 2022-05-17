@@ -8,6 +8,7 @@ footer {
   bottom: 0;
   height: fit-content;
   border-top: 1px solid ghostwhite;
+  font-family: 'Poppins', sans-serif;
 }
 
 .footer ul{
