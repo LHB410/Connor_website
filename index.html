@@ -19,6 +19,7 @@
   <nav>
     <div class="navbar">
       <a href="#" class="nav-branding">LOGO</a>
+      <div id="google-translate-element"></div>
       <ul class="nav-menu">
         <li class="nav-item"><a class="nav-link" id="sec-1" href="#one">Bio</a></li>
         <li class="nav-item"><a class="nav-link" id="sec-2" href="#two">Videos</a></li>
@@ -42,7 +43,16 @@
           <div class="card-body">
             <h3 class="card-title">Connor D Steck</h3>
             <h5 class="card-title">Musician and Composer</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ducimus, consequatur assumenda sint ipsa quia cupiditate vitae molestias voluptatum ut iste soluta hic dolorum perspiciatis dicta eius laudantium? Placeat, sint.</p>
+            <p class="card-text">Connor D. Steck was born on March 12, 1990 in Portage, Wisconsin. He began playing saxophone at age 11 after his parents
+            dug his father’s saxophone out of the bottom of his grandfather’s closet for him. After graduating high school in 2008,
+            he spent three years studying music theory and saxophone at the University of Wisconsin - La Crosse. Connor drooped out
+            of the program to independently apply to a music conservatory, Koyo Conservatory of Music (now known as the Koyo School
+            of Music and Dance) in Kobe City, Japan. There he studied saxophone under Mitsuhiro Furuya and Randal Conners for two
+            years. After completing the program, he transferred to Berklee College of Music in Boston, Massachusetts where he spent
+            two years studying saxophone with Dino Govoni and George Garzone, jazz composition under Bob Pilkington and Scott Free,
+            and jazz music with Kenny Werner. After graduating with his Bachelor’s in Jazz Composition in 2016, he moved back to
+            Japan. Currently, Connor is in his final year of his Master’s in Composition at Senzoku College of Music in Kawasaki,
+            Japan. He teaches saxophone and music theory at Lift Music School in Higashi-Jujo, Tokyo.</p>
           </div>
         </div>
         <div class="col-md-2 p-1">
@@ -92,7 +102,7 @@
   <div id="three" class="item">
     <h1 class="neon-text">Music</h1>
     <div>
-      <h4>Coming Soon!</h4>
+      <h4 style="color: rgb(255, 255,244);">Coming Soon!</h4>
     </div>
   </div>
   <!-- BANDS -->
@@ -100,7 +110,7 @@
     <h1 class="neon-text">Bands</h1>
     <div class="container d-flex justify-content-around">
       <div class="row">
-        <div class="col">
+        <div class="col-sm-10 col-md-4">
           <div class="card border-radius">
           <img src="images/jazz.jpg" class="card-img-top" alt="...">
           <div class="card-body">
@@ -108,7 +118,7 @@
           </div>
         </div>
         </div>
-        <div class="col">
+        <div class="col-sm-10 col-md-4">
           <div class="card border-radius">
             <img src="images/jazz.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -116,7 +126,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col-sm-10 col-md-4">
           <div class="card border-radius">
             <img src="images/jazz.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -130,7 +140,7 @@
   <!-- SHOP -->
   <div id="five" class="item">
     <h2 class="pb-2 neon-text">Shop</h2>
-    <h4 class="pb-5">Coming Soon!</h4>
+    <h4 style="color: rgb(255, 255,244);" class="pb-5">Coming Soon!</h4>
   </div>
 
   <!-- FOOTER -->
@@ -157,5 +167,16 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <script src="js/navbar.js"></script>
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          { pageLanguage: 'en' },
+          'google_translate_element'
+        );
+      }
+  </script>
+  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?
+          cb=googleTranslateElementInit">
+          </script>
   </body>
   </html>
