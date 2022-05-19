@@ -27,3 +27,7 @@ Iframe {
 .small,small {
   color: ghostwhite;
 }
+
+#two p {
+  font-family: 'Poppins', sans-serif;
+}

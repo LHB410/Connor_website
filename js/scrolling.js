@@ -38,6 +38,14 @@ $("#sec-5").click(function () {
   return false;
 });
 
+$("#sec-6").click(function () {
+  $(this).addClass("active");
+  $('html,body ').animate({
+    scrollTop: $("#five").offset().top - 112
+  }, 1000);
+  return false;
+});
+
 $('#two').waypoint(function () {
 
   $(".container ul li").children().removeClass("active");
@@ -64,4 +72,9 @@ $('#one').waypoint(function () {
 $('#five').waypoint(function () {
   $(".container ul li").children().removeClass("active");
   $("#sec-5").addClass("active");
+}, { offset: 0 });
+
+$('#six').waypoint(function () {
+  $(".container ul li").children().removeClass("active");
+  $("#sec-6").addClass("active");
 }, { offset: 0 });

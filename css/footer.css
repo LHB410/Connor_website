@@ -17,6 +17,7 @@ footer {
   display: inline;
   float: none;
   margin-top: 5rem;
+  padding-left: 0rem;
 }
 
 footer li {
@@ -50,12 +51,26 @@ footer li {
   bottom: 1rem;
   margin: 0px;
   left: 0;
-  color: ghostwhite;
+  color: antiquewhite;
   text-decoration: none;
   transition: all 0.3s ease-out;
 }
 
 #portfolio-link :hover {
+  padding: 12px;
+  color: rgb(160, 34, 108);
+}
+
+#email a {
+  font-style: italic;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: antiquewhite;
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+}
+
+#email :hover {
   padding: 12px;
   color: rgb(160, 34, 108);
 }
