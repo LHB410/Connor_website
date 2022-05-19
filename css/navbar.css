@@ -81,6 +81,10 @@ dl,ol,ul {
   font-size: 20px;
 }
 
+#google-translate-element {
+  z-index: 1;
+}
+
 @media(max-width:768px) {
   .hamburger {
     display: block;
