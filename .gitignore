@@ -1,1 +1,4 @@
 .well-known
+.server.csr
+.server.key
+.server.pass.key
