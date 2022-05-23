@@ -16,7 +16,9 @@
   font-size: 18px;
   text-align: left;
   font-family: 'Poppins', sans-serif;
-  padding-top: 12px;
+  /* padding-top: 12px; */
+  text-indent: 30px;
+  margin-bottom: 4px;
 }
 
 #title{
@@ -26,9 +28,16 @@
 }
 
 .img-padding {
-  padding-bottom: 4px;
+  margin-bottom: 4px;
 }
 
 .card-body {
   padding-bottom: 4px;
+  height: min-content;
+}
+
+p:first-letter {
+  font-size: 20px;
+  line-height: 1;
+  font-weight: bold;
 }
