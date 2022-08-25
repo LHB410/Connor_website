@@ -1,6 +1,6 @@
 {
   "require": {
         "php": ">=5.5.9",
-        "zara-4/php-sdk": "1.1.0"
+        "zara-4/php-sdk": "v1.2.3.3"
     }
 }
