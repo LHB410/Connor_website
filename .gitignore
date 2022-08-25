@@ -2,3 +2,6 @@
 .server.csr
 .server.key
 .server.pass.key
+
+/index.php
+.htaccess
