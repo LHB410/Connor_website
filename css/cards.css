@@ -41,3 +41,8 @@ p:first-letter {
   line-height: 1;
   font-weight: bold;
 }
+
+#poster {
+  height: 1500px;
+  width: auto;
+}
