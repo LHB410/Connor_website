@@ -61,7 +61,6 @@ dl,ol,ul {
 }
 
 .navbar ul li a:hover {
-  padding: 12px;
   color: rgb(160, 34, 108);
 }
 
