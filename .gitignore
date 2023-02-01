@@ -1,9 +1,9 @@
-.well-known
-.server.csr
-.server.key
-.server.pass.key
+./well-known
+./server.csr
+./server.key
+./server.pass.key
 
 /index.php
-.htaccess
-.env
+./htaccess
+./env
 /vendor/
