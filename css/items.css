@@ -28,3 +28,13 @@
 .col {
   width: fit-content;
 }
+
+#performances{
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/wide.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.row.bands {
+  justify-content: center;
+}

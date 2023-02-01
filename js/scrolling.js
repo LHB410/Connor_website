@@ -3,21 +3,21 @@ $('#sec-1').addClass("active");
 //Smooth scrolling
 $("#sec-1").click(function () {
   $('html, body').animate({
-    scrollTop: $("#one").offset().top - 66
+    scrollTop: $("#bio").offset().top - 66
   }, 1000);
   return false;
 });
 
 $("#sec-2").click(function () {
   $('html, body').animate({
-    scrollTop: $("#two").offset().top - 112
+    scrollTop: $("#videos").offset().top - 112
   }, 1000);
   return false;
 });
 
 $("#sec-3").click(function () {
   $(' html,body').animate({
-    scrollTop: $("#three").offset().top - 112
+    scrollTop: $("#music").offset().top - 112
   }, 1000);
   return false;
 });
@@ -25,7 +25,7 @@ $("#sec-3").click(function () {
 $("#sec-4").click(function () {
   $(this).addClass("active");
   $('html,body ').animate({
-    scrollTop: $("#four").offset().top - 112
+    scrollTop: $("#performances").offset().top - 112
   }, 1000);
   return false;
 });
@@ -33,7 +33,7 @@ $("#sec-4").click(function () {
 $("#sec-5").click(function () {
   $(this).addClass("active");
   $('html,body ').animate({
-    scrollTop: $("#five").offset().top - 112
+    scrollTop: $("#bands").offset().top - 112
   }, 1000);
   return false;
 });
@@ -41,7 +41,7 @@ $("#sec-5").click(function () {
 $("#sec-6").click(function () {
   $(this).addClass("active");
   $('html,body ').animate({
-    scrollTop: $("#six").offset().top - 112
+    scrollTop: $("#shop").offset().top - 112
   }, 1000);
   return false;
 });
@@ -49,12 +49,12 @@ $("#sec-6").click(function () {
 $("#sec-7").click(function () {
   $(this).addClass("active");
   $('html,body ').animate({
-    scrollTop: $("#seven").offset().top - 112
+    scrollTop: $("#contact").offset().top - 112
   }, 1000);
   return false;
 });
 
-$('#two').waypoint(function () {
+$('#videos').waypoint(function () {
 
   $(".container ul li").children().removeClass("active");
   $("#sec-2").addClass("active");
@@ -62,32 +62,32 @@ $('#two').waypoint(function () {
 }, { offset: 101 });
 
 
-$('#three').waypoint(function () {
+$('#music').waypoint(function () {
   $(".container ul li").children().removeClass("active");
   $("#sec-3").addClass("active");
 }, { offset: 101 });
 
-$('#four').waypoint(function () {
+$('#performances').waypoint(function () {
   $(".container ul li").children().removeClass("active");
   $("#sec-4").addClass("active");
 }, { offset: 101 });
 
-$('#one').waypoint(function () {
+$('#bio').waypoint(function () {
   $(".container ul li").children().removeClass("active");
   $("#sec-1").addClass("active");
 }, { offset: 0 });
 
-$('#five').waypoint(function () {
+$('#bands').waypoint(function () {
   $(".container ul li").children().removeClass("active");
   $("#sec-5").addClass("active");
 }, { offset: 0 });
 
-$('#six').waypoint(function () {
+$('#shop').waypoint(function () {
   $(".container ul li").children().removeClass("active");
   $("#sec-6").addClass("active");
 }, { offset: 0 });
 
-$('#seven').waypoint(function () {
+$('#contact').waypoint(function () {
   $(".container ul li").children().removeClass("active");
   $("#sec-7").addClass("active");
 }, { offset: 0 });

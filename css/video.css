@@ -31,3 +31,7 @@ Iframe {
 #two p {
   font-family: 'Poppins', sans-serif;
 }
+
+.row.videos {
+  justify-content: center;
+}

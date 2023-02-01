@@ -39,6 +39,7 @@ a {
 .neon-text {
   animation: flicker 1.5s infinite alternate;
   color: #fff;
+  font-size: 40px;
 }
 
 /* Flickering animation */

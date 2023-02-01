@@ -3,6 +3,17 @@
   padding-bottom: 0rem ;
 }
 
+.card-body.bands{
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-body.bands > .card-text{
+  text-indent: 0px;
+  text-align: center;
+}
 
 .border-radius {
   border-radius: 4px;
@@ -10,20 +21,22 @@
 
 .card {
   box-shadow: 0 2px 20px rgba(236, 16, 236, 0.697);
+  margin: 0rem 0.4rem;
 }
 
 .card-text {
-  font-size: 18px;
+  font-size: 20px;
   text-align: left;
   font-family: 'Poppins', sans-serif;
   /* padding-top: 12px; */
   text-indent: 30px;
   margin-bottom: 4px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 
 #title{
   font-style: bold;
-  font-size: 38px;
+  font-size: 40px;
   font-weight: 400;
 }
 
@@ -45,5 +58,94 @@ p:first-letter {
 #poster {
   height: 1500px;
   width: auto;
+}
+
+.gradient{
+  background: rgb(229,224,224);
+  background: linear-gradient(90deg, rgba(229,224,224,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3rem;
+}
+
+.cards > .card > .card-body{
+  padding: 0px;
+}
+
+.overlay {
+  background-size: cover;
+  display: block;
+  min-width: 354px;
+  height: 500px;
+  box-shadow: 0 2px 20px rgba(236, 16, 236, 0.697);
+}
+
+.landscape-poster{
+  height: 390px;
+  width: 552px;
+  background-size: cover;
+  box-shadow: 0 2px 20px rgba(236, 16, 236, 0.697);
+}
+.card + #landscape {
+  box-shadow: none;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-family: 'Poppins', sans-serif;
+}
+
+@media (min-width: 100px) and (max-width: 575px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .gradient{
+    background: rgb(229,224,224);
+    background: linear-gradient(180deg, rgba(229,224,224,1) 0%, rgba(0,0,0,1) 100%);
+  }
+
+  .landscape-poster{
+    height: 273px;
+    background-repeat: no-repeat;
+    box-shadow: none;
+    width: 352px;
+  }
+
+  .item{
+    padding: 60px 0px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .landscape-poster{
+    height: 353px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: none;
+    width: 500px;
+  }
+
+  .item{
+    padding: 60px 0px;
+  }
+
+  .gradient{
+    background: rgb(229,224,224);
+    background: linear-gradient(180deg, rgba(229,224,224,1) 0%, rgba(0,0,0,1) 100%);
+  }
 }
 
