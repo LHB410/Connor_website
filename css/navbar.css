@@ -86,7 +86,7 @@ dl,ol,ul {
 }
 
 
-@media(max-width:768px) {
+@media(max-width:810px) {
   .hamburger {
     display: block;
   }

@@ -3,6 +3,10 @@
   padding-bottom: 0rem ;
 }
 
+.bio-pics{
+  gap: 2rem;
+}
+
 .card-body.bands{
   height: 160px;
   display: flex;
@@ -83,15 +87,6 @@ p:first-letter {
   box-shadow: 0 2px 20px rgba(236, 16, 236, 0.697);
 }
 
-.landscape-poster{
-  height: 390px;
-  width: 552px;
-  background-size: cover;
-  box-shadow: 0 2px 20px rgba(236, 16, 236, 0.697);
-}
-.card + #landscape {
-  box-shadow: none;
-}
 
 .text {
   color: white;
@@ -114,29 +109,18 @@ p:first-letter {
     background: linear-gradient(180deg, rgba(229,224,224,1) 0%, rgba(0,0,0,1) 100%);
   }
 
-  .landscape-poster{
-    height: 273px;
-    background-repeat: no-repeat;
-    box-shadow: none;
-    width: 352px;
-  }
-
   .item{
     padding: 60px 0px;
   }
+
+  .bio-pics{
+    flex-direction: column;
+  }
 }
 
-@media (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 767px) {
   .cards {
     grid-template-columns: 1fr;
-  }
-
-  .landscape-poster{
-    height: 353px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    box-shadow: none;
-    width: 500px;
   }
 
   .item{
@@ -147,5 +131,23 @@ p:first-letter {
     background: rgb(229,224,224);
     background: linear-gradient(180deg, rgba(229,224,224,1) 0%, rgba(0,0,0,1) 100%);
   }
+
+  .bio-pics{
+    flex-direction: column;
+  }
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .item{
+    padding: 60px 0px;
+  }
+
+  .gradient{
+    background: rgb(229,224,224);
+    background: linear-gradient(180deg, rgba(229,224,224,1) 0%, rgba(0,0,0,1) 100%);
+  }
+ }

@@ -38,3 +38,9 @@
 .row.bands {
   justify-content: center;
 }
+
+@media (min-width: 100px) and (max-width: 992px) {
+  .row.bands {
+    gap: 2rem;
+  }
+}
